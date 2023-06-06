@@ -32,7 +32,6 @@ typename TPQueue<T>::Item* TPQueue<T>::create(const T& data) {
     item->prev = nullptr;
     return item;
 }
-
 template <typename T>
 void TPQueue<T>::push(const T& it) {
     if (head == nullptr) {
